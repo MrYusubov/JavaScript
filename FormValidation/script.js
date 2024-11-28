@@ -1,4 +1,4 @@
-document.getElementById('validationForm').addEventListener('submit', function (ev) {
+document.getElementById('validationForm').addEventListener('submit',(ev)=>{
     ev.preventDefault();
 
     document.getElementById('usernameError').textContent = '';
